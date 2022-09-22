@@ -20,6 +20,7 @@ body {
 
 a {
     text-decoration: none;
+    color: white;
 }
 
 ul {
@@ -151,7 +152,7 @@ ul {
 
 .second-content {
     display: flex;
-    padding: 80px 150px;
+    padding: 80px 200px;
     flex-direction: column;
     justify-content: center;
     background-color: #E5E7EB;
