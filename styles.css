@@ -90,7 +90,7 @@ ul {
     margin-bottom: 10px;
 }
 
-button {
+.text button {
     background-color: #3882f6;
     padding: 8px 32px;
     font-size: 14px;
@@ -147,11 +147,7 @@ button {
     margin: 50px 0 ;
 }
 
-.third-content button {
-    border-color: white;
-    border-width:1px;
-    border-style: solid;
-}
+/* second content */
 
 .second-content {
     display: flex;
@@ -172,4 +168,40 @@ button {
 .author {
     font-weight: bold;
     margin-left: auto;
+}
+
+/* third content */
+
+.third-content {
+    margin: 100px auto;
+    padding: 50px 50px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #3882f6;
+    border-radius: 10px;
+    align-items: center;
+    max-width: 800px;
+}
+
+.third-content div button {
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
+    white-space: nowrap;
+    background-color: #3882f6;
+    padding: 8px 32px;
+    font-size: 14px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+.third-content .text {
+    color: white;
+    font-weight: bold;
+}
+
+.third-content .text div {
+    font-weight: normal;
+    font-size: small;
 }
