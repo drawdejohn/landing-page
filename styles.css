@@ -75,6 +75,10 @@ ul {
 .hero .image{
     flex: 1;
     background-color: gray;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -96,15 +100,76 @@ button {
     border: 0;
 }
 
+/* first content */
 
+.first-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+}
 
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 50px;
+}
 
+.card {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    width: 150px;
+}
 
+.sub-text {
+    text-align: center;
+    font-size: 18px;
+}
 
+.card .picture {
+    height: 150px;
+    width: 150px;
+    border-color:#3882f6;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
 
+.info-header {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    margin: 50px 0 ;
+}
 
 .third-content button {
     border-color: white;
     border-width:1px;
     border-style: solid;
+}
+
+.second-content {
+    display: flex;
+    padding: 80px 150px;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #E5E7EB;
+}
+
+.quote {
+    text-align: justify;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.author {
+    font-weight: bold;
+    margin-left: auto;
 }
