@@ -82,6 +82,10 @@ ul {
     align-items: center;
 }
 
+img {
+    width: 100%;
+    max-height: auto;
+}
 
 .hero .text{
     flex: 1;
