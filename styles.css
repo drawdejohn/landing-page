@@ -215,8 +215,24 @@ img {
 
 /* footer */
 .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkgray;
     text-align: center;
-    color: white;
+    color: black;
     font-size: small;
     padding: 20px 0;
+    font-size: 20px;
+}
+
+.footer-logo {
+    margin-left: 10px;
+    height: 30px;
+    color: var(--font);
+    transition: transform 0.3s ease-in-out;
+}
+
+.footer-logo:hover{
+    transform: rotate(360deg) scale(1.2);
 }
